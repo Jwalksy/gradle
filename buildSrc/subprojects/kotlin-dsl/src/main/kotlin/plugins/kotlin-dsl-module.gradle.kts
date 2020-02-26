@@ -19,10 +19,7 @@
  *
  * The assembled jar will:
  *  - be named after `base.archivesBaseName`
- *  - include all sources
  */
-
-import accessors.sourceSets
 
 plugins {
     id("kotlin-library")
