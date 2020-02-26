@@ -36,6 +36,7 @@ class DirectoryCodec(private val fileFactory: FileFactory) : Codec<Directory> {
     }
 }
 
+
 class RegularFileCodec(private val fileFactory: FileFactory) : Codec<RegularFile> {
     override suspend fun WriteContext.encode(value: RegularFile) {
         writeFile(value.asFile)
