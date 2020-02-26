@@ -94,10 +94,9 @@ import org.gradle.util.TestUtil
 import org.junit.Rule
 import spock.lang.Specification
 
-import java.awt.*
+import java.awt.Point
 import java.lang.reflect.Type
 import java.text.FieldPosition
-import java.util.List
 
 class DefaultProjectTest extends Specification {
 
